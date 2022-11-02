@@ -305,8 +305,8 @@ a:focus {
 }
 
 .carousel .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
 }
 
 @media (max-width: 991.98px) {
