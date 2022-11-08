@@ -89,7 +89,32 @@ a:focus {
     font-size: inherit;
     margin-left: 0;
 }
+/**********************************/
+/*********Estilos php login*****/
+#login .container #login-row #login-column #login-box{
+    margin-top: 70px;
+    padding: 20px;
+    max-width: 633px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px #343a40;
+    border-radius: 10px;
+    opacity: 0.92;
+}
+.pollo{
+    max-width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    z-index: 1;
+    display: block;
+}
+h1.sh,h2.sh{
+    text-shadow: 2px 2px 2px white;
+}
 
+
+
+
+/**********************************/
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -485,7 +510,7 @@ a:focus {
 
 .booking .booking-form {
     padding: 60px 30px;
-    background: #e03c1f;
+    background: #a6a10e;
 }
 
 .booking .booking-form .control-group {

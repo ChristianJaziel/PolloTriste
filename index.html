@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="es-mx">
+<html lang="es">
     <head>
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Pollos tristes</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
@@ -27,30 +27,30 @@
 
     <body>
         <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Pollo <span>Triste</span></a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="navbar navbar-expand-lg bg-light navbar-light">
+                <div class="container-fluid">
+                    <a href="index.html" class="navbar-brand">Pollo <span>Triste</span></a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto">
+                            <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                            <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
+                            <a href="menu.html" class="nav-item nav-link">Menu</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu">
+                                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                    <a href="single.html" class="dropdown-item">Blog Detail</a>
+                                </div>
                             </div>
+                            <a href="contact.html" class="nav-item nav-link">Contacto</a>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
                     </div>
                 </div>
             </div>
-        </div>
         <!-- Nav Bar End -->
 
 
@@ -72,7 +72,7 @@
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn custom-btn" href="">Ver menú</a>
-                                <a class="btn custom-btn" href="">Acerca de nosotros</a>
+                                <a class="btn custom-btn" href="about.html">Acerca de nosotros</a>
                             </div>
                         </div>
                     </div>
@@ -121,16 +121,15 @@
                     <div class="col-lg-7">
                         <div class="booking-content">
                             <div class="section-header">
-                                <p>Book A Table</p>
-                                <h2>Book Your Table For Private Dinners & Happy Hours</h2>
+                                <p style="font-size: 50px;border-radius: 10px;background-color:red;color:white;">Carta a la mesa</p>
+                                
                             </div>
                             <div class="about-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                    Tenemos comida a todo tipo de hora
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
+                                    
                             </div>
                         </div>
                     </div>
@@ -853,6 +852,9 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
+        <script src="jquery/jquery-3.3.1.min.js"></script>
+        <script src="popper/popper.min.js"></script>
+        <script src="plugins/sweetalert/sweetalert2.all.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
